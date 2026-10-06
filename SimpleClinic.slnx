@@ -1,6 +1,4 @@
 <Solution>
   <Project Path="BL/BL.csproj" Id="f84e79b8-8bb7-4d5a-bb4d-ea190ec6cb8e" />
-  <Project Path="Console/ConsoleApp.csproj" Id="52219c63-dfdd-4639-a339-49dab5429357" />
   <Project Path="DAL/DAL.csproj" Id="3b3e879e-d1a9-4811-8fcc-e75e6bd00eb8" />
-  <Project Path="Presentation/Presentation.csproj" />
 </Solution>

@@ -1,5 +1,5 @@
-﻿using DAL.Context.Config;
-using DAL.Entities;
+﻿using BL.Models;
+using DAL.Context.Config;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Configuration;

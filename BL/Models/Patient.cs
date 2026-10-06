@@ -6,15 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Entities
+namespace BL.Models
 {
-    public class Doctor
+    public class Patient
     {
-        public int DoctorId { get; set; }
+        public int PatientId { get; set; }
         public int PersonId { get; set; }
-        public string Specialization { get; set; } = null!;
         public Person Person { get; set; } = null!;
         public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
-
     }
 }
