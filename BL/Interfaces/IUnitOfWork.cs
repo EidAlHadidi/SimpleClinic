@@ -14,7 +14,7 @@ namespace BL.Interfaces
         public IBaseRepository<Patient> Patients { get; }
         public IBaseRepository<Payment> Payments { get; }
         public IBaseRepository<Prescription> Prescriptions { get; }
-        public IBaseRepository<MedicalRecord> MedicalRecord { get; }
+        public IBaseRepository<MedicalRecord> MedicalRecords{ get; }
         public IBaseRepository<Appointment> Appointments { get; }
 
         int complete();
